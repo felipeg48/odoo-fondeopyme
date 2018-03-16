@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend_imp" inherit_id="web.assets_backend" name="Website Backend Assets (used in backend interface)">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/website_imp/static/src/less/website_imp.less"/>
+        </xpath>
+    </template>
+
+</odoo>
